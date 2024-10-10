@@ -10,9 +10,6 @@ background: #f2f2f2;
 :root.dark a span:nth-child(2) {
 display: none;
 }
-:root.dark {
-background: #32363b;
-}
 :root.dark * {
 background: #212529;
 }
@@ -71,9 +68,9 @@ padding: 5px 10px;
 border: 2px solid #b0b0b0;
 font-size: 10pt;
 text-align: left;
-color: #bababa;
 line-height: 13px;
 overflow-x:auto;
+color: #212529;
 background: #808080;
 height: 350px;
 }
