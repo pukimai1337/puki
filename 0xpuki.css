@@ -10,9 +10,6 @@ background: #f2f2f2;
 :root.dark a span:nth-child(2) {
 display: none;
 }
-:root.dark {
-background: #32363b;
-}
 :root.dark * {
 background: #212529;
 }
