@@ -13,6 +13,9 @@ display: none;
 :root.dark * {
 background: #212529;
 }
+:root.dark body {
+background: #26292b;
+}
 :root.dark input[type=submit],
 :root.dark .back,
 :root.dark a.tools {
@@ -116,7 +119,7 @@ visibility: visible;
 opacity: 1;
 }
 .storage {
-font-size: 75%;
+font-size: 8.5pt;
 }
 .total {
 text-decoration: underline;
@@ -304,6 +307,7 @@ border-bottom:3px solid red;
 }
 a.back {
 color:#8a8a8a;
+font-size: 10pt;
 border-radius:5px;
 border:2px solid #adadad;
 background: #f2f2f2;
@@ -324,11 +328,8 @@ user-select: none;
 }
 a.tools {
 line-height: 40px;
-margin-left:-8px;
-margin-right:10px;
-margin-top:10px;
-margin-bottom:10px;
 padding:5px 10px;
+font-size: 10pt;
 outline:none;
 color:#8a8a8a;
 border-radius:5px;
